@@ -2,7 +2,7 @@
   "action.skipOnboarding": "Skip onboarding",
   "action.next": "Next",
   "action.back": "Back",
-  "action.finish": "Finish",
+  "action.finish": "پایان",
 
   "dismissable_rag_modal": {
     "description": "You can now chat with your own documents using Retrieval Augmented Generation (RAG). Here's how it works:",

@@ -2,12 +2,12 @@
   "tabs/server": "سرور محلی",
   "tabs/extensions": "Extensions",
   "loadSettings/title": "بارگزاری تنظیمات",
-  "modelSettings/placeholder": "Select a model to configure it",
+  "modelSettings/placeholder": "یک مدل برای تنظیم کردن انتخاب کنید",
 
   "loadedModels/noModels": "هیچ مدلی بارگزاری نشده است",
   
   "serverOptions/title": "Server Options",
-  "serverOptions/configurableTitle": "Configurable Options",
+  "serverOptions/configurableTitle": "گزینه‌های قابل تنظیم",
   "serverOptions/port/hint": "Set which networking port the local server will use. By default, LM Studio uses the port 1234. You might need to change this if the port is already in use.",
   "serverOptions/port/subtitle": "The port to listen on",
   "serverOptions/autostart/title": "Auto-start server",
@@ -21,9 +21,9 @@
   "serverOptions/network/title": "Serve on Local Network",
   "serverOptions/network/subtitle": "Expose server to devices on the network",
   "serverOptions/network/hint1": "Whether to allow connections from other devices on the network.",
-  "serverOptions/network/hint2": "If not checked, the server will only listen on localhost.",
+  "serverOptions/network/hint2": "اگر تیک نخورد، سرور فقط روی لوکال‌هاست گوش می‌دهد",
   "serverOptions/verboseLogging/title": "لاگ پرحرف",
-  "serverOptions/verboseLogging/subtitle": "Enable verbose logging for the local server",
+  "serverOptions/verboseLogging/subtitle": "فعال کردن لاگ پرحرف برای سرور محلی",
   "serverOptions/contentLogging/title": "Log Prompts and Responses",
   "serverOptions/contentLogging/subtitle": "Local request / response logging settings",
   "serverOptions/contentLogging/hint": "Whether to log prompts and/or the response in the local server log file.",
@@ -36,16 +36,16 @@
   "runtimeSettings/title": "Runtime settings",
   "runtimeSettings/chooseRuntime/title": "Configure Runtimes",
   "runtimeSettings/chooseRuntime/description": "Select a runtime for each model format",
-  "runtimeSettings/chooseRuntime/showAllVersions/label": "Show all versions",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "نمایش همه نسخه‌ها",
   "runtimeSettings/chooseRuntime/showAllVersions/hint": "By default, LM Studio only shows the latest version of each runtime. Enable this option to see all available versions.",
   "runtimeSettings/chooseRuntime/select/placeholder": "Select a Runtime",
 
-  "runtimeOptions/uninstall": "Uninstall",
-  "runtimeOptions/uninstallDialog/title": "Uninstall {{runtimeName}}?",
+  "runtimeOptions/uninstall": "حذف",
+  "runtimeOptions/uninstallDialog/title": "حذف {{runtimeName}}?",
   "runtimeOptions/uninstallDialog/body": "Uninstalling this runtime will remove it from the system. This action is irreversible.",
   "runtimeOptions/uninstallDialog/body/caveats": "Some files may only be removed after LM Studio is restarted.",
   "runtimeOptions/uninstallDialog/error": "Failed to uninstall runtime",
-  "runtimeOptions/uninstallDialog/confirm": "Continue and Uninstall",
+  "runtimeOptions/uninstallDialog/confirm": "ادامه و حذف",
   "runtimeOptions/uninstallDialog/cancel": "لغو",
 
   "inferenceParams/noParams": "No configurable inference parameters available for this model type",
@@ -56,8 +56,8 @@
   "endpoints/openaiCompatRest/postChatCompletions": "Chat completions. Send a chat history to the model to predict the next assistant response",
   "endpoints/openaiCompatRest/postEmbeddings": "Text Embedding. Generate text embeddings for a given text input. Takes a string or array of strings.",
 
-  "model.createVirtualModelFromInstance": "Save Settings as a New Virtual Model",
-  "model.createVirtualModelFromInstance/error": "Failed to save settings as a new virtual model",
+  "model.createVirtualModelFromInstance": "ذخیره تنطیمات به عنوان یک مدل مجازی جدید",
+  "model.createVirtualModelFromInstance/error": "خطا در ذخیره تنطیمات به عنوان یک مدل مجازی جدید",
 
   "apiConfigOptions/title": "API تنظیمات"
 }
